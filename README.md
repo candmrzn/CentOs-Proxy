@@ -9,7 +9,7 @@
 ## 🚀 Kullanım
 
 ```bash
-wget https://raw.githubusercontent.com/keyiflerolsun/CentOS_Proxi/main/CentOS_Proxi.sh --no-check-certificate --no-cache --no-cookies
+wget https://raw.githubusercontent.com/candmrzn/CentOs-Proxy/main/CentOS_Proxi.sh --no-check-certificate --no-cache --no-cookies
 
 # Proxy Kullanıcı Adı ve Şifresi Dosyanın En Üstünde Tanımlıdır..
 
