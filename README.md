@@ -33,13 +33,10 @@ Kaç adet IPv6 proxy oluşturmak istiyorsunuz? Örnek 500 :
  IPv6 Zip İndirme Bağlantısı: https://file.io/t5Ysvv5yMIkL
  IPv6 Zip Şifresi: RnzNy
 
- IPv4   Proxy » 45.77.88.54:3310:tarak:kurek
- SOCKS5 Proxy » 45.77.88.54:5110:tarak:kurek
+ IPv4   Proxy » 45.77.88.54:3310:dmrzncan:59e29de77
+ SOCKS5 Proxy » 45.77.88.54:5110:dmrzncan:59e29de77
 ```
 
-### Video Anlatım
-
-[![CentOS_Proxi](https://img.youtube.com/vi/-tqliMAo8Mc/0.jpg)](https://www.youtube.com/watch?v=-tqliMAo8Mc)
 
 ## 📝 Teşekkürler
 
@@ -47,20 +44,3 @@ Kaç adet IPv6 proxy oluşturmak istiyorsunuz? Örnek 500 :
 - IPv6           için *[3proxy](https://github.com/3proxy/3proxy)*
 - SOCKS5         için *[dante](https://github.com/Lozy/danted)*
 - Dosya yüklemek için *[file.io](https://www.file.io/developers)*
-
-## 🌐 Telif Hakkı ve Lisans
-
-- _Copyright (C) 2022 by_ [keyiflerolsun](https://github.com/keyiflerolsun) ❤️️
-- [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/keyiflerolsun/CentOS_Proxi/blob/main/LICENSE) _Koşullarına göre lisanslanmıştır.._
-
-## ♻️ İletişim
-
-_Benimle iletişime geçmek isterseniz, **Telegram**'dan mesaj göndermekten çekinmeyin;_ [@keyiflerolsun](https://t.me/keyiflerolsun)
-
-## 💸 Bağış Yap
-
-**[☕️ Kahve Ismarla](https://keyiflerolsun.me/Kahve)**
-
-##
-
-> **[@KekikAkademi](https://t.me/KekikAkademi)** _için yazılmıştır.._
