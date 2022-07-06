@@ -36,11 +36,3 @@ Kaç adet IPv6 proxy oluşturmak istiyorsunuz? Örnek 500 :
  IPv4   Proxy » 45.77.88.54:3310:dmrzncan:59e29de77
  SOCKS5 Proxy » 45.77.88.54:5110:dmrzncan:59e29de77
 ```
-
-
-## 📝 Teşekkürler
-
-- IPv4           için *[squid](https://github.com/squid-cache/squid)*
-- IPv6           için *[3proxy](https://github.com/3proxy/3proxy)*
-- SOCKS5         için *[dante](https://github.com/Lozy/danted)*
-- Dosya yüklemek için *[file.io](https://www.file.io/developers)*
