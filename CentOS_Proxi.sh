@@ -27,10 +27,10 @@ mor='\e[0;35m'
 
 yukle_3proxy() {
     echo -e "\n\n\t$yesil 3Proxy Yükleniyor..\n$renkreset\n"
-    # URL="https://github.com/3proxy/3proxy/archive/refs/tags/0.9.4.tar.gz"
-    URL="https://github.com/candmrzn/CentOs-Proxy/blob/main/Paketler/3proxy-0.9.4.tar.gz"
+    # URL="https://github.com/z3APA3A/3proxy/archive/3proxy-0.8.6.tar.gz"
+    URL="https://github.com/candmrzn/CentOs-Proxy/blob/main/Paketler/3proxy-3proxy-0.8.6.tar.gz"
     wget -qO- $URL | bsdtar -xvf-       # -xf-
-    cd 3proxy-0.9.4
+    cd 3proxy-3proxy-0.8.6
     make -f Makefile.Linux              # -sif
     mkdir -p /usr/local/etc/3proxy/{bin,logs,stat}
     cp -f src/3proxy /usr/local/etc/3proxy/bin/
@@ -38,7 +38,7 @@ yukle_3proxy() {
     chmod +x /etc/init.d/3proxy
     chkconfig 3proxy on
     cd ..
-    rm -rf 3proxy-0.9.4
+    rm -rf 3proxy-3proxy-0.8.6
     cd $YOL
 }
 
