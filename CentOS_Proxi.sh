@@ -28,7 +28,7 @@ mor='\e[0;35m'
 yukle_3proxy() {
     echo -e "\n\n\t$yesil 3Proxy Yükleniyor..\n$renkreset\n"
     # URL="https://github.com/z3APA3A/3proxy/archive/3proxy-0.8.6.tar.gz"
-    URL="https://github.com/candmrzn/CentOs-Proxy/blob/main/Paketler/3proxy-3proxy-0.8.6.tar.gz"
+    URL="https://github.com/keyiflerolsun/CentOS_Proxi/raw/main/Paketler/3proxy-3proxy-0.8.6.tar.gz"
     wget -qO- $URL | bsdtar -xvf-       # -xf-
     cd 3proxy-3proxy-0.8.6
     make -f Makefile.Linux              # -sif
@@ -83,9 +83,7 @@ setgid 65535
 setuid 65535
 flush
 auth strong
-
 users $(awk -F "/" 'BEGIN{ORS="";} {print $1 ":CL:" $2 " "}' ${VERI})
-
 $(awk -F "/" '{print "auth strong\n" \
 "allow " $1 "\n" \
 "proxy -6 -n -a -p" $4 " -i" $3 " -e"$5"\n" \
@@ -104,9 +102,7 @@ auth_param basic realm proxy
 acl authenticated proxy_auth REQUIRED
 acl smtp port 25
 http_access allow authenticated
-
 http_port 0.0.0.0:${IPV4_PORT}
-
 http_access deny smtp
 http_access deny all
 forwarded_for delete
