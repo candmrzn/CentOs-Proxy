@@ -9,7 +9,7 @@ SIFRE="59e29de77"
 #------------------#
 IPV4_PORT=3310
 
-IPV6_ILK_PORT=20000
+IPV6_ILK_PORT=10000
 
 SOCKS5_PORT=5110
 #------------------#
